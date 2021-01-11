@@ -1,5 +1,5 @@
 # Directed_graph_comparison
-Directed weighted graph implement in python in order to make a comparison with out Java project and Networkx lib.
+Directed weighted graph implement in python in order to make a comparison with our Java project and Networkx lib.
 
 ![alt text](https://github.com/Tzachc/Directed_graph_comparison/blob/main/data/graph.png)
 # About our project
