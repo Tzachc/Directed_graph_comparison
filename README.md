@@ -12,4 +12,4 @@ with our java project (compar the Run times and results), also we make compar wi
 in our project there is "DiGraph" class, that implement the graph itself.
 in additional to DiGraph, there are also NodeData and EdgeData classes that represent a Node and Edge in our graph. 
 
-> DiGraph:
+* DiGraph:
