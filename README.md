@@ -68,5 +68,6 @@ in additional to DiGraph, there are also NodeData and EdgeData classes that repr
  
  # Comparison
 as mentioned, the main goal of this project is to make comparison of the previous project and python Networkx graph lib.
-for out result, check out my "Wiki page".
+
+for our comparison result, check out my "Wiki page".
 
