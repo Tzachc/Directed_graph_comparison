@@ -66,4 +66,7 @@ in additional to DiGraph, there are also NodeData and EdgeData classes that repr
  
  **graph_height(dict)** : return a list of the smallest y and the highest y values for use in the plot_graph method.
  
- 
+ # Comparison
+as mentioned, the main goal of this project is to make comparison of the previous project and python Networkx graph lib.
+for out result, check out my "Wiki page".
+
