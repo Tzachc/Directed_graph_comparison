@@ -1,0 +1,73 @@
+{
+    "Edges": [
+        {
+            "src": 0,
+            "w": {
+                "src": 0,
+                "dest": 1,
+                "weight": 1,
+                "tag": 0,
+                "info": ""
+            },
+            "dest": 1
+        },
+        {
+            "src": 1,
+            "w": {
+                "src": 1,
+                "dest": 0,
+                "weight": 1.1,
+                "tag": 0,
+                "info": ""
+            },
+            "dest": 0
+        },
+        {
+            "src": 1,
+            "w": {
+                "src": 1,
+                "dest": 2,
+                "weight": 1.3,
+                "tag": 0,
+                "info": ""
+            },
+            "dest": 2
+        },
+        {
+            "src": 1,
+            "w": {
+                "src": 1,
+                "dest": 3,
+                "weight": 1.8,
+                "tag": 0,
+                "info": ""
+            },
+            "dest": 3
+        },
+        {
+            "src": 2,
+            "w": {
+                "src": 2,
+                "dest": 3,
+                "weight": 1.1,
+                "tag": 0,
+                "info": ""
+            },
+            "dest": 3
+        }
+    ],
+    "Nodes": [
+        {
+            "id": 0
+        },
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        }
+    ]
+}
