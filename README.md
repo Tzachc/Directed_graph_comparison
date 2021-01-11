@@ -12,7 +12,7 @@ with our java project (compar the Run times and results), also we make compar wi
 in our project there is "DiGraph" class, that implement the graph itself.
 in additional to DiGraph, there are also NodeData and EdgeData classes that represent a Node and Edge in our graph. 
 
- *DiGraph*:
+ ***DiGraph***:
  
  Class that implements the 'interface' "GraphInterface" which represents a directed weighted graph.
  our graph contain dictionary on nodes and edges.
@@ -38,4 +38,32 @@ in additional to DiGraph, there are also NodeData and EdgeData classes that repr
  **remove_edge(id1, id2) : remove the edge between id1 and id2 
  
  
- *GraphAlgo* 
+ ***GraphAlgo*** 
+ 
+ graphAlgo class implements the interface "GraphAlgoInterface" and represent the algorithms that can be used in our 
+ directed graph.
+ 
+ **get_graph()** : return the graph.
+ 
+ **load_from_json(file_name)** : the method recevie a string name of a graph that saved in JSON format, and loat it into graph.
+ 
+ **save_to_json(file_name)** : save the graph into JSON format, with the given name.
+ 
+ **shortest_path(id1,id2)** : this method find the cheapest way (weights) to get from id1 to id2, used with dijkstra algorithm.
+ the method return the cost (the weight in total) and the path iteself like (id1 --> .. --> id2).
+ 
+ **get_actuall_path**(graph, dest : NodeData)** : helper method for the shortest_path to get the actuall path.
+ 
+ **connected_component(id1)** : give us a list with id's of the nodes which are part of strongly connected component of our id1.
+ 
+ **connected_components()** : return list of all strongly connected component in our graph.
+ 
+ **plot_graph()** : plot the graph.
+ 
+ **bfs(id1, reverse_graph, dequeu, graph)->list** : helper method BFS used for the connected_component check.
+ 
+ **graph_width(dict)** : return a list of the smallest x and the highest x values for use in the plot_graph method.
+ 
+ **graph_height(dict)** : return a list of the smallest y and the highest y values for use in the plot_graph method.
+ 
+ 
